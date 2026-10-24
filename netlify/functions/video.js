@@ -7,7 +7,7 @@
 // o trabalho é dividido em 4 ações rápidas: melhorar, iniciar, status, baixar.
 
 const BASE = "https://generativelanguage.googleapis.com/v1beta";
-const MODELO_TEXTO = "gemini-2.5-flash";
+const MODELO_TEXTO = "gemini-3.8-flash";
 const MODELO_VIDEO = "veo-3.1-generate-preview";
 const LIMITE_MP4 = 4.5 * 1024 * 1024; // resposta da função no Netlify aceita ~6 MB (em base64)
 
