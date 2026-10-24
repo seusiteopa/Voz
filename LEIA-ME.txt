@@ -1,0 +1,7 @@
+VECORION VOZ - como publicar pelo celular
+
+1) No Netlify (app.netlify.com), crie um site novo: Add new site > Deploy manually
+   e envie este zip (ou a pasta descompactada).
+2) Em Site configuration > Environment variables, crie OPENAI_API_KEY com a sua chave.
+3) Faca um novo deploy depois de criar a variavel (Deploys > Trigger deploy).
+4) Abra o endereco do site no celular e toque em "Gerar as 6 falas".
